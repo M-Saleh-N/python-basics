@@ -1,4 +1,4 @@
-print("Heyyy there , whats your score?")
+print("Heyyy there?")
 print("__________________________________________")
 
 
