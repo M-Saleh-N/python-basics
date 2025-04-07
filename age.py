@@ -10,3 +10,6 @@ elif age >= 14:
 
 elif age >= 20:
     print("You're an adult!")
+
+else:
+    print("Thank you for entering your age")
