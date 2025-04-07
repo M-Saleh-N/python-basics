@@ -1,4 +1,6 @@
 print("Heyyy there , whats your favorite animal?")
+print("__________________________________________")
+
 
 animal = str(input("Enter your fav animal: "))
 
