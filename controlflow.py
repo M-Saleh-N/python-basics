@@ -36,3 +36,13 @@ while count < 5: # CONDITION
     print("Count is ", count)
     count += 1 # INCREMENT
 
+ # FUNCTIONS
+
+"""
+THEY ALLOW YOU TO ENCAPSULATE REUSABLE PEICES OF CODE AND ENHANCE CODE MODULARITY.
+"""
+def add_sum(a,b):
+    return a + b
+result = add_sum(10, 20)
+print(result)
+
