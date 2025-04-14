@@ -65,12 +65,18 @@ my_list[1:3]
 for i in range(len(my_list)):
     print(my_list[i])
 
-#SERCHING ELEMENTS
+#SEARCHING ELEMENTS
 """
 = Serching the array can be done using linear search, or binary search(if the array is sorted)
 = Time complexity : 0(n) Linear search, 0(log n) Binary search
 
 """
+search_item = 14
+if search_item in my_list:
+    index = my_list.index(search_item)
+    print(f"Element {search_item} found ")
+else:
+    print(f"Element {search_item} not found")
 
 # PYTHON ARRAY MODULE 
 """
