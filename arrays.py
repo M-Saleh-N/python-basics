@@ -62,8 +62,12 @@ my_list[1:3]
 = Traversing involves accessing each element of the array sequentially with a time complexity of 0(n)
 
 """
-for i in range(len(my_list)):
-    print(my_list[i])
+my_list = [1, 2, 3, 4, 5] #list with initial elements 
+
+
+print("Array elements:")
+for item in my_list:
+    print(item)
 
 #SEARCHING ELEMENTS
 """
